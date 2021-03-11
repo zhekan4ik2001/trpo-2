@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "516750b30da6df6166a735b8e6d89516",
+    "content-hash": "c73d2a0b3d333ad6c5b7433bb0507c42",
     "packages": [
         {
             "name": "rok9ru/trpo-core",
