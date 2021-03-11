@@ -6,7 +6,7 @@ class QuadEquation extends LineEquation implements EquationInterface{
     protected function discriminant($a,$b,$c){
         return $b*$b-4*$a*$c;
     }
-    public function solve($a,$b,$c){
+    public function solve(float $a, float $b, float $c): array {
         if($a==0) {
             return $this->x_ = array($this::lineEquation($b, $c));
         }

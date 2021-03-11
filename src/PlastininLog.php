@@ -4,18 +4,18 @@ use core\LogAbstract;
 use core\LogInterface;
 class PlastininLog extends LogAbstract implements LogInterface{
 
-    public static function log($str){
+    public static function log(string $str): void {
         PlastininLog::Instance()->_log($str);
     }
     public function _log($str){
         $this->log[]=$str;
     }
 
-    public static function write(){
+    public static function write(): void {
         PlastininLog::$i->_write();
     }
 
-    public function _write(){
+    public function _write(): void {
         $log='';
 		if (!is_dir("log")) {
             mkdir("log");

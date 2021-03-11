@@ -1,6 +1,7 @@
 {
     "name": "zhenak4ik2001/trpo-2",
     "type": "library",
+    "description": "TRPO library",
     "repositories": [
         {
             "type": "git",
