@@ -3,7 +3,7 @@
     "type": "library",
     "description": "TRPO library",
     "scripts": {
-        "test": "vendor\\bin\\phpunit src\\tests"
+        "test": "vendor\\bin\\phpunit tests"
     },
     "repositories": [
         {
