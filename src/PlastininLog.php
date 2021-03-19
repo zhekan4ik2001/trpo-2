@@ -2,12 +2,13 @@
 namespace Plastinin;
 use core\LogAbstract;
 use core\LogInterface;
+
 class PlastininLog extends LogAbstract implements LogInterface{
 
     public static function log(string $str): void {
         PlastininLog::Instance()->_log($str);
     }
-    public function _log($str){
+    public function _log(string $str): void{
         $this->log[]=$str;
     }
 

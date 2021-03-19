@@ -2,6 +2,9 @@
     "name": "zhekan4ik2001/trpo-2",
     "type": "library",
     "description": "TRPO library",
+    "scripts": {
+        "test": "vendor\\bin\\phpunit src\\tests"
+    },
     "repositories": [
         {
             "type": "git",
@@ -15,5 +18,8 @@
         "psr-4": {
             "Plastinin\\": "src"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
     }
 }
